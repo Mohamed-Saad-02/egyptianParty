@@ -1,0 +1,32 @@
+@media (max-width: 767px) {
+  /* Details Section */
+  #details {
+    background-size: cover;
+  }
+  /* Contact Section */
+  #contact .caption {
+    padding-inline: 12px;
+  }
+  #contact .location li {
+    justify-content: flex-start !important;
+  }
+  #contact .social {
+    gap: 20px !important;
+    justify-content: space-around !important;
+  }
+  #contact p {
+    text-align: left !important;
+  }
+}
+
+@media (min-width: 768px) {
+  #duration .singer {
+    width: 75%;
+  }
+}
+
+@media (min-width: 992px) {
+  #duration .singer {
+    width: 60%;
+  }
+}
